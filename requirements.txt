@@ -1,5 +1,5 @@
 dj-database-url
-textdistanc 
+textdistance
 Django==2.2.4
 django-heroku==0.3.1
 gunicorn==19.9.0
