@@ -35,7 +35,7 @@ def new_search(request):
     #Get Data
     new_search = request.POST.get('search')
     dis = request.POST.get('dis')
-    output=resume_scane.scan(str(dis),str(new_search))
+    output=resume_scane.scan2(str(dis),str(new_search))
 
     
 
